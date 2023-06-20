@@ -6,7 +6,14 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        primary: ['Inter', ...defaultTheme.fontFamily.sans],
+        primary: [
+          'Open Sauce One,-apple-system,SF Pro,sans-serif',
+          ...defaultTheme.fontFamily.sans,
+        ],
+        secondary: ['Inter', ...defaultTheme.fontFamily.sans],
+      },
+      screens: {
+        '2xl': '1920px',
       },
       colors: {
         primary: {
@@ -23,6 +30,11 @@ export default {
           900: 'rgb(var(--tw-color-primary-900) / <alpha-value>)',
           950: 'rgb(var(--tw-color-primary-950) / <alpha-value>)',
         },
+        'lapis-lazuli': '#22577aff',
+        verdigris: '#38a3a5ff',
+        emerald: '#57cc99ff',
+        'light-green': '#80ed99ff',
+        'tea-green': '#c7f9ccff',
         dark: '#222222',
       },
       keyframes: {
