@@ -25,8 +25,11 @@ export const Projects = (): JSX.Element => {
     },
   ];
   return (
-    <section className=' from-tea-green mt-10 flex flex-col justify-center gap-10 rounded-xl bg-gradient-to-tr px-7 py-20 shadow-xl drop-shadow-sm sm:px-20 '>
-      <h2 className='text-center'>Projects</h2>
+    <section
+      id='projects'
+      className=' from-tea-green mt-10 flex flex-col justify-center gap-10 rounded-xl bg-gradient-to-tr px-7 py-20 shadow-xl drop-shadow-sm sm:px-20 '
+    >
+      <h2>Projects</h2>
       <p className='italic'>
         Please note the data may take time to load on the sites...
       </p>

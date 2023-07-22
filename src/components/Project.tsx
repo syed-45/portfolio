@@ -25,7 +25,7 @@ export const Project = (props: ProjectProps): JSX.Element => {
 
       {/* The overlay content */}
       <div className='absolute inset-0 mb-7 ml-7 flex items-end justify-start'>
-        <h2 className='text-4xl font-bold text-white'>{props.title}</h2>
+        <h2 className='font-bold text-white'>{props.title}</h2>
       </div>
 
       <div className='absolute inset-0 mr-7 mt-7 flex items-start justify-end gap-8'>

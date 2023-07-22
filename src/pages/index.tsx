@@ -7,10 +7,11 @@ import {
 } from 'react-icons/ai';
 import { MdCall, MdOutlineAlternateEmail } from 'react-icons/md';
 
-import { About } from '@/components/about';
+import { About } from '@/components/About';
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
 import { Projects } from '@/components/Projects';
+import { Contact } from '@/components/Contact';
 
 /**
  * SVGR Support
@@ -29,17 +30,17 @@ export default function HomePage() {
     <Layout>
       {/* <Seo templateTitle='Home' /> */}
       <Seo />
-      <nav className='max-w-900 min-w-100 flex justify-center gap-40 bg-[#ffffff] p-4 drop-shadow-lg'>
+      <nav className='fixed left-0 top-0 z-50 flex w-full justify-around bg-gradient-to-b from-orange-400 to-orange-600 py-4 font-bold text-white'>
         <Link href='/'>Home</Link>
         <Link href='/#about'>About</Link>
-        <Link href='/'>Projects</Link>
-        <Link href='/'>Contact</Link>
+        <Link href='/#projects'>Projects</Link>
+        <Link href='/#contact'>Contact</Link>
       </nav>
       <div className='relative mx-5 max-w-screen-2xl pt-20 sm:mx-auto sm:w-4/5'>
-        <main className='min-h-3/4 from-emerald flex flex-col justify-center rounded-xl bg-gradient-to-tr px-7 pt-20 shadow-xl drop-shadow-sm sm:px-20'>
+        <main className='min-h-3/4 from-tea-green flex flex-col justify-center rounded-xl bg-gradient-to-tr px-7 pt-20 shadow-xl drop-shadow-sm sm:px-20'>
           <h1 className='text-4xl'>Syed Haque, a Full-Stack Developer</h1>
           <h4 className='mb-20 mt-10 font-normal italic'>
-            Hello and welcome to my portfolio website where you can found out
+            Hello 👋🏽 and welcome to my portfolio website where you can found out
             more about me and check out the projects I have worked on!
           </h4>
           <h5 className='mb-2 mt-10 flex items-center justify-center gap-1 text-sm font-normal tracking-widest'>
@@ -62,6 +63,7 @@ export default function HomePage() {
         </main>
         <About />
         <Projects />
+        <Contact />
       </div>
     </Layout>
   );
