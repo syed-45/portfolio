@@ -1,6 +1,9 @@
 export const About = (): JSX.Element => {
   return (
-    <section className='min-h-3/4 from-verdigris mt-10 flex flex-col justify-center rounded-xl bg-slate-200 bg-gradient-to-tr px-7 py-20 sm:px-20 '>
+    <section
+      id='about'
+      className='min-h-3/4 from-verdigris mt-10 flex flex-col justify-center rounded-xl bg-gradient-to-tr px-7 py-20 shadow-xl drop-shadow-sm sm:px-20 '
+    >
       <h2 className='mb-10'>About me</h2>
       <p>
         "Hello, I'm [Your Name], a passionate and skilled [Your Profession].
