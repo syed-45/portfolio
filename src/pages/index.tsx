@@ -7,7 +7,7 @@ import {
 } from 'react-icons/ai';
 import { MdCall, MdOutlineAlternateEmail } from 'react-icons/md';
 
-import { About } from '@/components/About';
+import { About } from '../components/About';
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
 import { Projects } from '@/components/Projects';
