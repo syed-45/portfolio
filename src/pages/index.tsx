@@ -38,11 +38,11 @@ export default function HomePage() {
       </nav>
       <div className='relative mx-5 max-w-screen-2xl pt-20 sm:mx-auto sm:w-4/5'>
         <main className='min-h-3/4 from-tea-green flex flex-col justify-center rounded-xl bg-gradient-to-tr px-7 pt-20 shadow-xl drop-shadow-sm sm:px-20'>
-          <h1 className='text-4xl'>Syed Haque, a Full-Stack Developer</h1>
-          <h4 className='mb-20 mt-10 font-normal italic'>
+          <h1>Syed Haque, a Full-Stack Developer</h1>
+          <p className='mb-20 mt-10 italic'>
             Hello 👋🏽 and welcome to my portfolio website where you can found out
             more about me and check out the projects I have worked on!
-          </h4>
+          </p>
           <h5 className='mb-2 mt-10 flex items-center justify-center gap-1 text-sm font-normal tracking-widest'>
             CONTACT ME <AiOutlineArrowDown className='animate-bounce' />
           </h5>
