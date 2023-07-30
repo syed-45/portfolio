@@ -1,10 +1,6 @@
 import Link from 'next/link';
 import * as React from 'react';
-import {
-  AiFillGithub,
-  AiOutlineArrowDown,
-  AiOutlineLinkedin,
-} from 'react-icons/ai';
+import { AiFillGithub, AiOutlineLinkedin } from 'react-icons/ai';
 import { MdCall, MdOutlineAlternateEmail } from 'react-icons/md';
 
 import { About } from '../components/About';
