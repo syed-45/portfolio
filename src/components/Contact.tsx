@@ -34,7 +34,7 @@ export const Contact = () => {
       id='contact'
       className='from-light-green mb-10 mt-10 flex flex-col justify-center rounded-xl bg-gradient-to-tr px-7 py-20 shadow-xl drop-shadow-sm sm:px-20'
     >
-      <h2 className='mb-10'>Contact Me</h2>
+      <h2 className='mb-10 text-neutral-800'>Contact Me</h2>
       <div className=' mb-5 flex h-12 w-full items-center justify-center gap-8 rounded-xl bg-opacity-60 py-7 sm:mx-auto sm:w-96'>
         <Link href='https://www.github.com/syed-45'>
           <AiFillGithub size={28} cursor='pointer' />
@@ -52,7 +52,7 @@ export const Contact = () => {
       <form
         ref={form}
         onSubmit={sendEmail}
-        className='flex flex-col justify-center gap-2'
+        className='flex flex-col justify-center gap-2 text-neutral-700'
       >
         <label>Name</label>
         <input

@@ -36,7 +36,7 @@ export const Project = (props: ProjectProps): JSX.Element => {
           />
         </Link>
         <Link href={props.siteURL} target='_blank'>
-          <FaExternalLinkAlt size={60} />
+          <FaExternalLinkAlt size={60} className='mt-1' />
         </Link>
       </div>
     </div>
