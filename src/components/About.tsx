@@ -12,7 +12,7 @@ export const About = (): JSX.Element => {
       <p>
         I trained as a software engineer at Academy, covering full-stack
         fundamentals and modern technologies such as React, NodeJS, ExpressJS
-        and PostgreSQL 👨‍💻👨‍💻
+        and PostgreSQL 👨‍💻👨‍💻👨‍💻
       </p>
       <p>
         At Academy, I completed a number of projects in teams, implementing
